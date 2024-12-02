@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./chat.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li class="item_nav"><a href="./index.html">Home</a></li>
+          <li class="item_nav"><a href="./chat.html">Chat</a></li>
+        </ul>
+        <form action="" method="post">
+          <input type="text" placeholder="input login" />
+          <input type="button" value="sing in" />
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Chat</h1>
+        <form id="send_msg" method="post">
+          <select name="select" id="choise" form="send_msg">
+            <option value="user1">User 1</option>
+            <option value="user2">User 2</option>
+            <option value="user3">User 3</option>
+          </select>
+          <input type="text" id="inp_text" size="40" placeholder="input text" />
+          <button id="send">Send</button>
+        </form>
+        <div class="history">
+          <p>User1: hello</p>
+          <p>User2: hello</p>
+          <p>User3: hello</p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
