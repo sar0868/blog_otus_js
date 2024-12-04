@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: gray;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item_nav {
+  margin-right: 30px;
+}
+
+.item_nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.item_nav a:hover {
+  color: black;
+}
+
+.menu form {
+  padding-top: 15px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
